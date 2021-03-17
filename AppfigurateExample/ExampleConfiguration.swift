@@ -210,3 +210,8 @@ import AppfigurateLibrary
     }
 
 }
+
+@_cdecl("APLConfigurationClass")
+func APLConfigurationClass() -> AnyClass {
+    return ExampleConfiguration.self;
+}
