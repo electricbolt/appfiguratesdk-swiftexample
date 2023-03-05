@@ -1,6 +1,6 @@
 # Appfigurate™ SwiftExample
 
-Demonstrates how to integrate Appfigurate SDK into a Swift, iOS and watchOS, app and app extension.
+Demonstrates how to integrate Appfigurate SDK into an Swift, iOS and watchOS, app and app extension.
 
 Documentation for Appfigurate is available at [docs.electricbolt.co.nz](https://docs.electricbolt.co.nz).
 
