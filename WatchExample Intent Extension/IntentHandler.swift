@@ -26,7 +26,7 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
     // MARK: - INSendMessageIntentHandling
     
     // Implement resolution methods to provide additional information about your intent (optional).
-    func resolveRecipients(for intent: INSendMessageIntent, with completion: @escaping ([INPersonResolutionResult]) -> Void) {
+    func resolveRecipients(for intent: INSendMessageIntent, with completion: @escaping ([INSendMessageRecipientResolutionResult]) -> Void) {
         let b = (APLConfiguration.shared() as! ExampleConfiguration).boolean ? "true" : "false"
         print("IntentHandler.resolveRecipients(for:with:) boolean is \(b)");
 
@@ -34,25 +34,25 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
             
             // If no recipients were provided we'll need to prompt for a value.
             if recipients.count == 0 {
-                completion([INPersonResolutionResult.needsValue()])
+                completion([INSendMessageRecipientResolutionResult.needsValue()])
                 return
             }
             
-            var resolutionResults = [INPersonResolutionResult]()
+            var resolutionResults = [INSendMessageRecipientResolutionResult]()
             for recipient in recipients {
                 let matchingContacts = [recipient] // Implement your contact matching logic here to create an array of matching contacts
                 switch matchingContacts.count {
                 case 2  ... Int.max:
                     // We need Siri's help to ask user to pick one from the matches.
-                    resolutionResults += [INPersonResolutionResult.disambiguation(with: matchingContacts)]
+                    resolutionResults += [INSendMessageRecipientResolutionResult.disambiguation(with: matchingContacts)]
                     
                 case 1:
                     // We have exactly one matching contact
-                    resolutionResults += [INPersonResolutionResult.success(with: recipient)]
+                    resolutionResults += [INSendMessageRecipientResolutionResult.success(with: recipient)]
                     
                 case 0:
                     // We have no contacts matching the description provided
-                    resolutionResults += [INPersonResolutionResult.unsupported()]
+                    resolutionResults += [INSendMessageRecipientResolutionResult.unsupported()]
                     
                 default:
                     break

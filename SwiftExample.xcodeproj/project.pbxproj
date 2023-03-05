@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E0D8AC623FDEDEB00D4EBE5 /* ActionExampleExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E0D8ABA23FDEDEB00D4EBE5 /* ActionExampleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4E0D8AC623FDEDEB00D4EBE5 /* ActionExampleExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4E0D8ABA23FDEDEB00D4EBE5 /* ActionExampleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4E0D8AD423FDEE7600D4EBE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D8AD123FDEE7600D4EBE5 /* Images.xcassets */; };
 		4E0D8ADA23FDF2D000D4EBE5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D8AD923FDF2D000D4EBE5 /* MainInterface.storyboard */; };
 		4E0D8ADC23FDF2EB00D4EBE5 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D8ADB23FDF2EB00D4EBE5 /* ActionViewController.swift */; };
 		4E0D8ADD23FDF34200D4EBE5 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2B23A23FA0232009BD9BF /* ExampleConfiguration.swift */; };
 		4E2A98BF23FE20F000ECA2DA /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A98BE23FE20F000ECA2DA /* IntentHandler.swift */; };
-		4E2A98D423FE20F000ECA2DA /* Intent Extension (iOS).appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E2A98BC23FE20F000ECA2DA /* Intent Extension (iOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4E2A98D423FE20F000ECA2DA /* Intent Extension (iOS).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4E2A98BC23FE20F000ECA2DA /* Intent Extension (iOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4E4AF82525F6D217007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
 		4E4AF82D25F6D238007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
 		4E4AF83525F6D23D007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
 		4E4AF83D25F6D242007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
 		4E4AF84525F6D246007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
 		4E63A0AB23FDE486007FDE42 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E63A0AA23FDE486007FDE42 /* IntentHandler.swift */; };
-		4E63A0AF23FDE486007FDE42 /* WatchExampleIntentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E63A0A823FDE486007FDE42 /* WatchExampleIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4E63A0AF23FDE486007FDE42 /* WatchExampleIntentExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4E63A0A823FDE486007FDE42 /* WatchExampleIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4E63A0B823FDE5FE007FDE42 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2B23A23FA0232009BD9BF /* ExampleConfiguration.swift */; };
 		4E650A9E23FC922F00F33940 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2B23A23FA0232009BD9BF /* ExampleConfiguration.swift */; };
 		4E650AA123FC938B00F33940 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E650AA023FC938B00F33940 /* ExtensionDelegate.swift */; };
@@ -29,7 +29,7 @@
 		4E9B674123FC782E00D4F5D7 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2B23A23FA0232009BD9BF /* ExampleConfiguration.swift */; };
 		4EBF09BE23FC8E90009B7379 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBF09BC23FC8E90009B7379 /* Interface.storyboard */; };
 		4EBF09C023FC8E91009B7379 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBF09BF23FC8E91009B7379 /* Images.xcassets */; };
-		4EBF09C723FC8E92009B7379 /* WatchExampleExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4EBF09C623FC8E92009B7379 /* WatchExampleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4EBF09C723FC8E92009B7379 /* WatchExampleExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4EBF09C623FC8E92009B7379 /* WatchExampleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4EBF09D223FC8E92009B7379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBF09D123FC8E92009B7379 /* Assets.xcassets */; };
 		4EBF09D723FC8E92009B7379 /* WatchExample.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4EBF09BA23FC8E90009B7379 /* WatchExample.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4EC4FCAC23FC98C600E7523C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4FCAB23FC98C600E7523C /* InterfaceController.swift */; };
@@ -88,38 +88,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4E0D8AC723FDEDEB00D4EBE5 /* Embed App Extensions */ = {
+		4E0D8AC723FDEDEB00D4EBE5 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4E2A98D423FE20F000ECA2DA /* Intent Extension (iOS).appex in Embed App Extensions */,
-				4E0D8AC623FDEDEB00D4EBE5 /* ActionExampleExtension.appex in Embed App Extensions */,
+				4E2A98D423FE20F000ECA2DA /* Intent Extension (iOS).appex in Embed Foundation Extensions */,
+				4E0D8AC623FDEDEB00D4EBE5 /* ActionExampleExtension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E63A0B023FDE486007FDE42 /* Embed App Extensions */ = {
+		4E63A0B023FDE486007FDE42 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4E63A0AF23FDE486007FDE42 /* WatchExampleIntentExtension.appex in Embed App Extensions */,
+				4E63A0AF23FDE486007FDE42 /* WatchExampleIntentExtension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EBF09DB23FC8E92009B7379 /* Embed App Extensions */ = {
+		4EBF09DB23FC8E92009B7379 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4EBF09C723FC8E92009B7379 /* WatchExampleExtension.appex in Embed App Extensions */,
+				4EBF09C723FC8E92009B7379 /* WatchExampleExtension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4EBF09DF23FC8E92009B7379 /* Embed Watch Content */ = {
@@ -488,7 +488,7 @@
 			buildConfigurationList = 4EBF09DC23FC8E92009B7379 /* Build configuration list for PBXNativeTarget "WatchExample (watchOS)" */;
 			buildPhases = (
 				4EBF09B823FC8E90009B7379 /* Resources */,
-				4EBF09DB23FC8E92009B7379 /* Embed App Extensions */,
+				4EBF09DB23FC8E92009B7379 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -507,7 +507,7 @@
 				4EBF09C223FC8E92009B7379 /* Sources */,
 				4EBF09C323FC8E92009B7379 /* Frameworks */,
 				4EBF09C423FC8E92009B7379 /* Resources */,
-				4E63A0B023FDE486007FDE42 /* Embed App Extensions */,
+				4E63A0B023FDE486007FDE42 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -527,7 +527,7 @@
 				4EE2B22223FA0193009BD9BF /* Frameworks */,
 				4EE2B22323FA0193009BD9BF /* Resources */,
 				4EBF09DF23FC8E92009B7379 /* Embed Watch Content */,
-				4E0D8AC723FDEDEB00D4EBE5 /* Embed App Extensions */,
+				4E0D8AC723FDEDEB00D4EBE5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -548,7 +548,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = "Electric Bolt Limited";
 				TargetAttributes = {
 					4E0D8AB923FDEDEB00D4EBE5 = {
@@ -775,16 +775,16 @@
 				CODE_SIGN_ENTITLEMENTS = "ActionExample Extension/ActionExample Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ActionExample Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.ActionExample;
 				PRODUCT_NAME = ActionExampleExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -803,16 +803,16 @@
 				CODE_SIGN_ENTITLEMENTS = "ActionExample Extension/ActionExample Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ActionExample Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.ActionExample;
 				PRODUCT_NAME = ActionExampleExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -874,12 +874,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -929,13 +930,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -945,16 +947,16 @@
 				CODE_SIGN_ENTITLEMENTS = "Intent Extension/Intent Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Intent Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.intentextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -970,16 +972,16 @@
 				CODE_SIGN_ENTITLEMENTS = "Intent Extension/Intent Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Intent Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.intentextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -995,7 +997,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Intent Extension/WatchExample Intent Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "WatchExample Intent Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1004,7 +1006,7 @@
 					"@executable_path/../../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension.intentextension;
 				PRODUCT_NAME = WatchExampleIntentExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1012,7 +1014,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -1022,7 +1024,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Intent Extension/WatchExample Intent Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "WatchExample Intent Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1031,7 +1033,7 @@
 					"@executable_path/../../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension.intentextension;
 				PRODUCT_NAME = WatchExampleIntentExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1039,7 +1041,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -1051,6 +1053,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppfigurateExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1060,6 +1063,9 @@
 				PRODUCT_NAME = AppfigurateExampleUITests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "AppfigurateExample (iOS)";
@@ -1074,6 +1080,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppfigurateExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1083,6 +1090,9 @@
 				PRODUCT_NAME = AppfigurateExampleUITests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "AppfigurateExample (iOS)";
@@ -1097,7 +1107,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Extension/WatchExampleExtension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "WatchExample Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1105,7 +1115,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = WatchExampleExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1114,7 +1124,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -1126,7 +1136,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Extension/WatchExampleExtension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "WatchExample Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1134,7 +1144,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = WatchExampleExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1142,7 +1152,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -1153,11 +1163,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = WatchExampleAppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = WatchExample_Extension;
 				INFOPLIST_FILE = WatchExample/Info.plist;
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp;
 				PRODUCT_NAME = WatchExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1165,7 +1175,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -1176,11 +1186,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = WatchExampleAppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = WatchExample_Extension;
 				INFOPLIST_FILE = WatchExample/Info.plist;
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp;
 				PRODUCT_NAME = WatchExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1188,7 +1198,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -1201,18 +1211,21 @@
 				CODE_SIGN_ENTITLEMENTS = AppfigurateExample/AppfigurateExample.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppfigurateExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample;
 				PRODUCT_NAME = AppfigurateExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1228,18 +1241,21 @@
 				CODE_SIGN_ENTITLEMENTS = AppfigurateExample/AppfigurateExample.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2.2.0.1000;
+				CURRENT_PROJECT_VERSION = 3.0.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppfigurateExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample;
 				PRODUCT_NAME = AppfigurateExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
