@@ -775,7 +775,7 @@
 				CODE_SIGN_ENTITLEMENTS = "ActionExample Extension/ActionExample Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ActionExample Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -784,7 +784,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.ActionExample;
 				PRODUCT_NAME = ActionExampleExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -803,7 +803,7 @@
 				CODE_SIGN_ENTITLEMENTS = "ActionExample Extension/ActionExample Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ActionExample Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -812,7 +812,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.ActionExample;
 				PRODUCT_NAME = ActionExampleExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -947,7 +947,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Intent Extension/Intent Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Intent Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -956,7 +956,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.intentextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -972,7 +972,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Intent Extension/Intent Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Intent Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -981,7 +981,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.intentextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -997,7 +997,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Intent Extension/WatchExample Intent Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "WatchExample Intent Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1006,7 +1006,7 @@
 					"@executable_path/../../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension.intentextension;
 				PRODUCT_NAME = WatchExampleIntentExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1024,7 +1024,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Intent Extension/WatchExample Intent Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "WatchExample Intent Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1033,7 +1033,7 @@
 					"@executable_path/../../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension.intentextension;
 				PRODUCT_NAME = WatchExampleIntentExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1107,7 +1107,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Extension/WatchExampleExtension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "WatchExample Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1115,7 +1115,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = WatchExampleExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1136,7 +1136,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchExample Extension/WatchExampleExtension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "WatchExample Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1144,7 +1144,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp.watchkitextension;
 				PRODUCT_NAME = WatchExampleExtension;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1163,11 +1163,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = WatchExampleAppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = WatchExample_Extension;
 				INFOPLIST_FILE = WatchExample/Info.plist;
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp;
 				PRODUCT_NAME = WatchExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1186,11 +1186,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = WatchExampleAppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = WatchExample_Extension;
 				INFOPLIST_FILE = WatchExample/Info.plist;
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample.watchkitapp;
 				PRODUCT_NAME = WatchExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1211,7 +1211,7 @@
 				CODE_SIGN_ENTITLEMENTS = AppfigurateExample/AppfigurateExample.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppfigurateExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1219,7 +1219,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample;
 				PRODUCT_NAME = AppfigurateExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1241,7 +1241,7 @@
 				CODE_SIGN_ENTITLEMENTS = AppfigurateExample/AppfigurateExample.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3.0.0.1000;
+				CURRENT_PROJECT_VERSION = 3.1.0.1000;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppfigurateExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1249,7 +1249,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.electricbolt.appfigurateexample;
 				PRODUCT_NAME = AppfigurateExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
