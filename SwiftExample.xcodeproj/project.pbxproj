@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,11 +14,6 @@
 		4E0D8ADD23FDF34200D4EBE5 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2B23A23FA0232009BD9BF /* ExampleConfiguration.swift */; };
 		4E2A98BF23FE20F000ECA2DA /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A98BE23FE20F000ECA2DA /* IntentHandler.swift */; };
 		4E2A98D423FE20F000ECA2DA /* Intent Extension (iOS).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4E2A98BC23FE20F000ECA2DA /* Intent Extension (iOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4E4AF82525F6D217007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
-		4E4AF82D25F6D238007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
-		4E4AF83525F6D23D007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
-		4E4AF83D25F6D242007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
-		4E4AF84525F6D246007ED15D /* AppfigurateLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */; };
 		4E63A0AB23FDE486007FDE42 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E63A0AA23FDE486007FDE42 /* IntentHandler.swift */; };
 		4E63A0AF23FDE486007FDE42 /* WatchExampleIntentExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4E63A0A823FDE486007FDE42 /* WatchExampleIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4E63A0B823FDE5FE007FDE42 /* ExampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2B23A23FA0232009BD9BF /* ExampleConfiguration.swift */; };
@@ -40,6 +35,11 @@
 		4EE2B24623FA0233009BD9BF /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2B23F23FA0232009BD9BF /* ExampleViewController.swift */; };
 		4EE2B24723FA0233009BD9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE2B24023FA0233009BD9BF /* LaunchScreen.storyboard */; };
 		4EE2B24D23FA03B6009BD9BF /* AppfigurateExample.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE2B24C23FA03B6009BD9BF /* AppfigurateExample.xcassets */; };
+		C30192882B8B11DB0002E463 /* AppfigurateLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = C30192872B8B11DB0002E463 /* AppfigurateLibrary */; };
+		C301928A2B8B120A0002E463 /* AppfigurateLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = C30192892B8B120A0002E463 /* AppfigurateLibrary */; };
+		C301928C2B8B12150002E463 /* AppfigurateLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = C301928B2B8B12150002E463 /* AppfigurateLibrary */; };
+		C301928E2B8B12200002E463 /* AppfigurateLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = C301928D2B8B12200002E463 /* AppfigurateLibrary */; };
+		C30192902B8B12250002E463 /* AppfigurateLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = C301928F2B8B12250002E463 /* AppfigurateLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,7 +148,6 @@
 		4E2A98C623FE20F000ECA2DA /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		4E2A98E023FE215D00ECA2DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E2A98E123FE215D00ECA2DA /* Intent Extension (iOS).entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Intent Extension (iOS).entitlements"; sourceTree = "<group>"; };
-		4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppfigurateLibrary.xcframework; sourceTree = "<group>"; };
 		4E63A0A823FDE486007FDE42 /* WatchExampleIntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchExampleIntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E63A0AA23FDE486007FDE42 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		4E63A0AC23FDE486007FDE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -183,7 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4AF82D25F6D238007ED15D /* AppfigurateLibrary.xcframework in Frameworks */,
+				C301928A2B8B120A0002E463 /* AppfigurateLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4AF83D25F6D242007ED15D /* AppfigurateLibrary.xcframework in Frameworks */,
+				C301928E2B8B12200002E463 /* AppfigurateLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4AF84525F6D246007ED15D /* AppfigurateLibrary.xcframework in Frameworks */,
+				C30192902B8B12250002E463 /* AppfigurateLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +213,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4AF83525F6D23D007ED15D /* AppfigurateLibrary.xcframework in Frameworks */,
+				C301928C2B8B12150002E463 /* AppfigurateLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +221,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4AF82525F6D217007ED15D /* AppfigurateLibrary.xcframework in Frameworks */,
+				C30192882B8B11DB0002E463 /* AppfigurateLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +404,6 @@
 		4EE2B25023FA04AE009BD9BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E4AF82425F6D217007ED15D /* AppfigurateLibrary.xcframework */,
 				4E2A98C623FE20F000ECA2DA /* IntentsUI.framework */,
 			);
 			name = Frameworks;
@@ -427,6 +425,9 @@
 			dependencies = (
 			);
 			name = "ActionExample Extension (iOS)";
+			packageProductDependencies = (
+				C30192892B8B120A0002E463 /* AppfigurateLibrary */,
+			);
 			productName = "ActionExample Extension";
 			productReference = 4E0D8ABA23FDEDEB00D4EBE5 /* ActionExampleExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -461,6 +462,9 @@
 			dependencies = (
 			);
 			name = "WatchExample Intent Extension (watchOS)";
+			packageProductDependencies = (
+				C301928D2B8B12200002E463 /* AppfigurateLibrary */,
+			);
 			productName = "WatchExample Intent Extension";
 			productReference = 4E63A0A823FDE486007FDE42 /* WatchExampleIntentExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -479,6 +483,9 @@
 				4E9B673C23FC773500D4F5D7 /* PBXTargetDependency */,
 			);
 			name = "AppfigurateExampleUITests (iOS)";
+			packageProductDependencies = (
+				C301928F2B8B12250002E463 /* AppfigurateLibrary */,
+			);
 			productName = AppfigurateExampleUITests;
 			productReference = 4E9B673623FC773400D4F5D7 /* AppfigurateExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -515,6 +522,9 @@
 				4E63A0AE23FDE486007FDE42 /* PBXTargetDependency */,
 			);
 			name = "WatchExample Extension (watchOS)";
+			packageProductDependencies = (
+				C301928B2B8B12150002E463 /* AppfigurateLibrary */,
+			);
 			productName = "WatchExample Extension";
 			productReference = 4EBF09C623FC8E92009B7379 /* WatchExampleExtension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -537,6 +547,9 @@
 				4E2A98D323FE20F000ECA2DA /* PBXTargetDependency */,
 			);
 			name = "AppfigurateExample (iOS)";
+			packageProductDependencies = (
+				C30192872B8B11DB0002E463 /* AppfigurateLibrary */,
+			);
 			productName = AppfigurateExample;
 			productReference = 4EE2B22523FA0193009BD9BF /* AppfigurateExample.app */;
 			productType = "com.apple.product-type.application";
@@ -587,6 +600,9 @@
 				Base,
 			);
 			mainGroup = 4E26AA5D23F9DC0C006F30E3;
+			packageReferences = (
+				C30192862B8B11DB0002E463 /* XCRemoteSwiftPackageReference "appfiguratesdk" */,
+			);
 			productRefGroup = 4E26AA6723F9DC0C006F30E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1337,6 +1353,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C30192862B8B11DB0002E463 /* XCRemoteSwiftPackageReference "appfiguratesdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/electricbolt/appfiguratesdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C30192872B8B11DB0002E463 /* AppfigurateLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30192862B8B11DB0002E463 /* XCRemoteSwiftPackageReference "appfiguratesdk" */;
+			productName = AppfigurateLibrary;
+		};
+		C30192892B8B120A0002E463 /* AppfigurateLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30192862B8B11DB0002E463 /* XCRemoteSwiftPackageReference "appfiguratesdk" */;
+			productName = AppfigurateLibrary;
+		};
+		C301928B2B8B12150002E463 /* AppfigurateLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30192862B8B11DB0002E463 /* XCRemoteSwiftPackageReference "appfiguratesdk" */;
+			productName = AppfigurateLibrary;
+		};
+		C301928D2B8B12200002E463 /* AppfigurateLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30192862B8B11DB0002E463 /* XCRemoteSwiftPackageReference "appfiguratesdk" */;
+			productName = AppfigurateLibrary;
+		};
+		C301928F2B8B12250002E463 /* AppfigurateLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30192862B8B11DB0002E463 /* XCRemoteSwiftPackageReference "appfiguratesdk" */;
+			productName = AppfigurateLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E26AA5E23F9DC0C006F30E3 /* Project object */;
 }
