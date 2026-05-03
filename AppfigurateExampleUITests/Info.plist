@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>APLLogging</key>
-	<false/>
+	<string>FINE</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

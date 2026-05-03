@@ -1,27 +1,40 @@
 // AppDelegate.swift
-// SwiftExample Copyright© 2017-2025; Electric Bolt Limited.
+// SwiftExample Copyright© 2017-2026; Electric Bolt Limited.
 
 import UIKit
 import AppfigurateLibrary
 import FirebaseCore
 import FirebaseRemoteConfig
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-        
+class AppDelegate: NSObject, UIApplicationDelegate {
+
+    func application(_ application: UIApplication,
+                      configurationForConnecting connectingSceneSession: UISceneSession,
+                      options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+     }
+}
+
+final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+    var window: UIWindow?
     var remoteConfig: RemoteConfig!
 
-    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        return APLApplicationOpenURL(url)
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        // When your app opens a URL while running or suspended in memory.
+        APLApplicationOpenURL(URLContexts.first?.url)
     }
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        APLApplicationDidFinishLaunchingWithOptions(launchOptions)
-
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        // After launch.
+        APLApplicationOpenURL(connectionOptions.urlContexts.first?.url)
+        
 #if DEBUG
         // Allows XCUITest automation test cases to invoke functionality and return results from the app under test.
         APLAutomationMessageReceivedBlock { message, plist in
-            let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first!
+            let window = UIApplication.shared.connectedScenes
+                .compactMap { $0 as? UIWindowScene }
+                .flatMap { $0.windows }
+                .first { $0.isKeyWindow }!
 
             if (message == "SetDarkMode") {
                 let bool = plist as! Bool
@@ -35,13 +48,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 #endif
 
         initFirebaseRemoteConfig();
-        return true
     }
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
+    
     func initFirebaseRemoteConfig() {
         FirebaseApp.configure()
         remoteConfig = RemoteConfig.remoteConfig()

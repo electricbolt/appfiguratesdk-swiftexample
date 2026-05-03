@@ -4,7 +4,7 @@
 import Foundation
 import AppfigurateLibrary
 
-@inline(__always)
+@inline(always)
 func CONFIGURATION() -> ExampleConfiguration {
     return APLConfiguration.shared() as! ExampleConfiguration
 }
@@ -275,7 +275,6 @@ func CONFIGURATION() -> ExampleConfiguration {
         fontSize = 13.0
         bookingDuration = 180
     }
-
 }
 
 @_cdecl("APLConfigurationClass")

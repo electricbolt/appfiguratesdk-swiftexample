@@ -21,6 +21,7 @@ class AppfigurateExampleUITests: XCTestCase {
     var app: XCUIApplication!
     
     override func setUp() {
+        APLSetLogging(true)
         app = XCUIApplication()
     
         // Automatically dismiss the Appfigurate "Configuration applied" dialog.
@@ -48,8 +49,7 @@ class AppfigurateExampleUITests: XCTestCase {
         app.launchArguments = config.automationLaunchArgumentsReset()
         app.launch()
 
-        let cell = app.tables.cells.element(boundBy: 0)
-        let text = cell.staticTexts.element(boundBy: 1)
+        let text = app.staticTexts["boolean_value"]
         XCTAssertEqual(text.label, "true")
     }
     
@@ -58,8 +58,7 @@ class AppfigurateExampleUITests: XCTestCase {
         app.launchArguments = config.automationLaunchArguments()
         app.launch()
 
-        let cell = app.tables.cells.element(boundBy: 0)
-        let text = cell.staticTexts.element(boundBy: 1)
+        let text = app.staticTexts["boolean_value"]
         XCTAssertEqual(text.label, "false")
     }
 
@@ -68,8 +67,7 @@ class AppfigurateExampleUITests: XCTestCase {
         app.launchArguments = config.automationLaunchArguments()
         app.launch()
         
-        let cell = app.tables.cells.element(boundBy: 1)
-        let text = cell.staticTexts.element(boundBy: 1)
+        let text = app.staticTexts["string_Textfield_value"]
         XCTAssertEqual(text.label, "thursday")
     }
     
@@ -77,8 +75,7 @@ class AppfigurateExampleUITests: XCTestCase {
         app.launchArguments = config.automationLaunchArguments(withAction: "randomIntegers")
         app.launch()
 
-        let cell = app.tables.cells.element(boundBy: 8)
-        let text = cell.staticTexts.element(boundBy: 1)
+        let text = app.staticTexts["integer_Slider_value"]
         // The integer_Slider field should now be equal to some random value other
         // than the default number of 500.
         XCTAssertNotEqual(text.label, "500");
@@ -102,8 +99,7 @@ class AppfigurateExampleUITests: XCTestCase {
         // Updates this configuration by reading the configuration from the app under test.
         config.automationSendReadConfiguration()
         
-        let cell = app.tables.cells.element(boundBy: 8)
-        let text = cell.staticTexts.element(boundBy: 1)
+        let text = app.staticTexts["integer_Slider_value"]
         XCTAssertEqual(text.label, "\(config.integer_Slider)");
 
         // Applies this configuration to the app under test.
